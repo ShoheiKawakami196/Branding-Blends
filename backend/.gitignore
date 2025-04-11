@@ -1,4 +1,5 @@
 .env
+DigiCertGlobalRootCA.crt.pem
 backend/saved/
 backend/myenv/
 
