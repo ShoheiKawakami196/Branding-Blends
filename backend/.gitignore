@@ -1,0 +1,6 @@
+.env
+backend/saved/
+backend/myenv/
+
+# .pth ファイルを無視
+*.pth
