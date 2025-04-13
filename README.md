@@ -91,10 +91,9 @@ hair_model.load_state_dict(torch.load("models/hair_classifier_cleanliness.pth"))
 
 ---
 
-### 📌 注意点
+### 📌 備考
 
 - `beard_classifier.pth` は現時点で未使用です（今後拡張予定）。  
 - 顔検出には dlib ベースの `face_recognition` を利用しています。  
-- 顔画像は一時的に `saved/` フォルダに保存されます。
 
 ---
