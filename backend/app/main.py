@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "https://branding-ngrok-app.ngrok.io"],  # 必要なオリジンを指定
+    allow_origins=["http://localhost:3000", "https://branding-ngrok-app.ngrok.io", "https://app-002-step3-2-node-oshima4.azurewebsites.net"],  # Azureから受けられるように変更
     allow_credentials=True,
     allow_methods=["*"],  # 必要なHTTPメソッド（例: GET, POST, OPTIONS）
     allow_headers=["*"],  # 必要なHTTPヘッダー（例: Content-Type, Authorization）
