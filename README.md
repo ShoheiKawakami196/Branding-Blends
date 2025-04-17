@@ -1,7 +1,7 @@
 
 # Branding-Blends
 
-## Branding_Brends_Backend
+## Branding_Blends_Backend
 
 肌状態と髪の清潔感をAIで自動評価するWebアプリのバックエンドです。  
 ユーザーがアップロードした顔画像から、AIが3つの観点（肌、髪、髭）をスコアリングし、結果を返却・保存します。  
