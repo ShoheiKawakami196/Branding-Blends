@@ -1,4 +1,4 @@
-```markdown
+
 # Branding-Blends
 
 ## Branding_Blends_Backend
@@ -249,6 +249,3 @@ backend/
 
 - `beard_classifier.pth` は現時点で未使用です（今後拡張予定）。
 - 顔検出には dlib ベースの `face_recognition` を利用しています。
-
----
-```
